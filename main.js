@@ -4,7 +4,7 @@
  */
  
 var cardRules = new Array;
-    $.get('example_tossups.csv', function(data){
+    $.get('https://asfduahoufi.github.io/example_tossups.csv', function(data){
             var array = data.split('\n');
             console.log(cardRules);
         });

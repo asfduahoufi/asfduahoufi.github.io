@@ -87,7 +87,7 @@ $(window).keypress(function(e) {
 		}else{
 			//console.log("STATE_ANSWER_REVEALED --> STATE_READING")
 			//lineNumber++;
-			lineNumber = randomEven(0, lines.length-1);
+			lineNumber = randomEven(0, lines.length-2);
 			console.log(lineNumber);
 			state = STATE_READING;
 			$("#question").text("");
